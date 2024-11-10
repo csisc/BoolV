@@ -30,8 +30,8 @@ file_path = 'train.jsonl'
 # Open and read the JSONL file
 with jsonlines.open(file_path) as reader:
     for obj in reader:
-        df = df._append({'question': obj["question"], 'answer': obj["answer"], 'probability': query_with_logprobs(MODEL_Q8_0, obj["question"]+"? Answer with one word: FALSE or TRUE.")}, ignore_index=True)
+        df = df._append({'question': obj["question"], 'answer': obj["answer"], 'probability': query_with_logprobs(MODEL_Q8_0, obj["question"]+"? Answer with one word: TRUE or FALSE.")}, ignore_index=True)
         print(df.index)
 
 # Saving dataframe
-df.to_excel("benchmark_evaluation_false_first.xlsx", index=False)
+df.to_excel("benchmark_evaluation.xlsx", index=False)
