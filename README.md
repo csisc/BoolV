@@ -11,7 +11,6 @@ A method to evaluate the response of lightweight LLMs to TRUE-FALSE questions
 - https://huggingface.co/MaziyarPanahi/gemma-2-2b-it-GGUF/blob/main/gemma-2-2b-it.Q8_0.gguf
 - https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF/blob/main/Phi-3.5-mini-instruct.Q8_0.gguf
 - https://huggingface.co/MaziyarPanahi/Llama-3-Groq-8B-Tool-Use-GGUF/blob/main/Llama-3-Groq-8B-Tool-Use.Q8_0.gguf
-- https://huggingface.co/MaziyarPanahi/Yi-1.5-6B-Chat-GGUF/blob/main/Yi-1.5-6B-Chat.Q6_K.gguf
 - https://huggingface.co/MaziyarPanahi/SmolLM-1.7B-Instruct-v0.2-GGUF/blob/main/SmolLM-1.7B-Instruct-v0.2.Q8_0.gguf
 - https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/blob/main/Hermes-3-Llama-3.1-8B.Q8_0.gguf
 
