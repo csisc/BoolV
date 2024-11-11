@@ -13,7 +13,7 @@ MODEL_Q8_0 = Llama(
 #Defining function for getting a response
 def query_with_logprobs(model, question):
     prompt = f"Q: {question} A:"
-    output = model(prompt=prompt, max_tokens=1, temperature=10000, logprobs=True)
+    output = model(prompt=prompt, max_tokens=1, temperature=10000, logprobs=True, min_p=0)
     response = output["choices"][0]
     logprobs = response["logprobs"]["top_logprobs"][0]  # Get logprobs for first token
 
