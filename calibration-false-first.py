@@ -19,6 +19,7 @@ def query_with_logprobs(model, question):
 
     # Extract logprobs for TRUE
     logprob_true = math.exp(logprobs.get(" TRUE", float("-inf")))
+    if (logprob_true == 0): logprob_true = 1-math.exp(logprobs.get(" FALSE", float("-inf")))
     return logprob_true
 
 #Defining dataframe
