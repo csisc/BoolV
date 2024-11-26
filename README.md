@@ -16,4 +16,4 @@ A method to evaluate the response of lightweight LLMs to TRUE-FALSE questions
 - Dev dataset: 3270 labeled dev examples.
 
 # Funding
-This research work has been done thanks to the computer resources of Wikimedia Switzerland.
+This research work has been done thanks to the [computer resources](https://wikimedia.ch/fr/news/swiss-server-helps-optimise-wikidata-in-the-field-of-medicine/) of [Wikimedia Switzerland](https://wikimedia.ch/).
