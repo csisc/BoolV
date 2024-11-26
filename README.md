@@ -14,3 +14,6 @@ A method to evaluate the response of lightweight LLMs to TRUE-FALSE questions
 - https://github.com/google-research-datasets/boolean-questions
 - Train dataset: 9427 labeled training examples.
 - Dev dataset: 3270 labeled dev examples.
+
+# Funding
+This research work has been done thanks to the computer resources of Wikimedia Switzerland.
