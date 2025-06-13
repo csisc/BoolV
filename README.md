@@ -1,6 +1,10 @@
 # BoolV
 A method to evaluate the response of lightweight LLMs to TRUE-FALSE questions
 
+**Source Code for the Data Visualization:** https://github.com/csisc/BoolV-Analysis.
+
+**To Cite the Work:** Turki, H., Dossou, B. F. P., Nebli, A., & Valdelli, I. (2025). Evaluating the Behavior of Small Language Models in Answering Binary Questions. In *3rd International Workshop on Generalizing from Limited Resources in the Open World (GLOW@IJCAI 2025)*.
+
 # Models
 | Model         | Hyperparameters |
 | ------------- | --------------- |
